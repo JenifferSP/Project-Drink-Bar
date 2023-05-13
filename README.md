@@ -1,2 +1,2 @@
-# Project-Drink-Bar
-Projeto feito em grupo, de um site de bebidas feito com react
+# Projeto-Drink-Bar
+Projeto feito em react, utilizando uma Api para listagem de dados

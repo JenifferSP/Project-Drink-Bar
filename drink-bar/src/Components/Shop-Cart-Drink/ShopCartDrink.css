@@ -1,0 +1,140 @@
+.Container_ShopCartDrink{
+    background: #fff;
+    width: 25vw;
+    height: 70vh;
+    border-radius: 18px;
+    margin: 0 4rem 0 0;
+    box-shadow: 5px 5px 15px rgba(79, 43, 95, 0.562);
+    animation: float 3s ease-in-out infinite;
+    position: absolute;
+    right: 0;
+    top: 13%;
+    overflow-y: scroll;
+}
+
+.title-my-kart{
+    text-align: center;
+    padding: 20px 0 30px 0;
+}
+.cart-status{
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0.7rem 7.5rem 0 0;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Container-img-drink-kart, .Check-Box-cart-Drink{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background:var(--beige-color);
+    width: 90%;
+    height: 6rem;
+    border-radius: 20px;
+}
+
+.Check-Box-cart-Drink{
+    margin: 15px 0 0 18px;
+}
+.Check-Box-cart-Drink:hover{
+    -webkit-box-shadow: 2px 3px 36px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 36px -10px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 36px -10px rgba(0,0,0,0.75);
+}
+.img-drink-kart{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 30px;
+}
+
+.img-drink{
+    width: 60px;
+}
+.model-price-drink{
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.btn-delete-Product{
+    height: 20px;
+    font-size: 25px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: var(--beige-color);
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.btn-delete-Product:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.Footer_Kart{
+    background-image: linear-gradient(to right, #331183 , #5f24cc);
+    width: 22%;
+    height: 4rem;
+    position: absolute;
+    bottom: 0;  
+    right: 0;
+    margin-bottom:4rem;
+    margin-right: 5.3em;
+    border-radius: 20px;
+}
+
+.title-total-drink{
+    padding: 15px;
+    color: #fff;
+    letter-spacing: 4px;
+}
+.text-detail-shp-cart-drink{
+    font-size: 11px;
+    width:110px;
+}
+.btn-drink-kart{
+    display: block;
+    margin: 0 auto;
+    height: 2.1rem;
+    width: 6rem;
+    border-radius: 15px;
+    background: #fff;
+    border: 3px solid #331183;
+    letter-spacing: 2px;
+    font-weight: 900;
+    color:var(--dark-purple-color); 
+    cursor: pointer; 
+    text-transform: uppercase;
+    font-size: 11px;
+    align-items: center;
+
+    justify-content: center;
+}
+.btn-drink-kart:hover{
+    color: #fff;
+    background: var(--aquamarine-color);
+    border: 3px solid var(--aquamarine-color);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-6px);
+    }
+}

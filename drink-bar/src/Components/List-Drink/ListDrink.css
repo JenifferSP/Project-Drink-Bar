@@ -1,0 +1,50 @@
+.Container_ListDrink{
+    background: #fff;
+    width: 25vw;
+    height: 70vh;
+    border-radius: 18px;
+    position: absolute;
+    top: 13%;
+    margin: 0 0 0 4rem;
+    box-shadow: -5px 5px 15px rgba(79, 43, 95, 0.562);
+    animation: float 3s ease-in-out infinite;
+    overflow-y: scroll;
+}
+
+
+.Container_inputSearch{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.inputSearch{
+    border-radius: 5px 0 0 5px;
+    border: none;
+    background: var(--grey-color);
+    height: 2rem;
+    width: 14rem;
+    padding-left:20px ; 
+    outline: none;
+}
+.Button_search{
+    border: none;
+    border-radius: 3px 15px 15px 3px;
+    background-image: linear-gradient(to right, #331183 , #5f24cc);
+    width: 3rem;
+    cursor:pointer;
+    color: #fff;
+}
+.Button_search:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-7px);
+    }
+}
